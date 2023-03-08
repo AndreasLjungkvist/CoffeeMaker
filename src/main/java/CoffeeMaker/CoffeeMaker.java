@@ -11,7 +11,7 @@ public class CoffeeMaker {
         } else if (stockCoffee>1) {
             quantityCoffee = "Coffee Low Supply";
         } else if (stockCoffee == 0) {
-            quantityCoffee = "Coffee Out Of Stock ";
+            quantityCoffee = "Coffee Out Of Stock";
         }else{
             quantityCoffee = "Something went wrong";
         }
